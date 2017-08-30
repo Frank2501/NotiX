@@ -38,9 +38,16 @@ namespace NotiX.Core.Data
                   new News()
                 {
                     Id = 3,
-                    Title = "Angular Js",
+                    Title = "Xamarin",
                     Body ="Xamarin es una compañía de software estadounidense, propiedad de Microsoft y con sede principal en San Francisco(California), fundada en mayo de 2011 por Nat Friedman y Miguel de Icaza(que iniciaron el Proyecto Mono)",
                     ImageName = "noticia3.png"
+                },
+                   new News()
+                {
+                    Id = 4,
+                    Title = "Angular Js",
+                    Body ="AngularJS is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC",
+                    ImageName = "noticia4.png"
                 },
             };
         }

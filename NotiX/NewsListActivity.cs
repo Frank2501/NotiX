@@ -23,6 +23,8 @@ namespace NotiX
 
             SetContentView(Resource.Layout.NewsList);
 
+
+
             var newsListView = FindViewById<ListView>(Resource.Id.newsListView);
 
             var newsServices = new NewsService();

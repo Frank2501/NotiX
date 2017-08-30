@@ -49,6 +49,9 @@ namespace NotiX
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int read_later_white = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -62,17 +65,20 @@ namespace NotiX
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int newsBody = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int newsBody = 2131099650;
 			
-			// aapt resource value: 0x7f050001
-			public const int newsImage = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int newsImage = 2131099649;
 			
-			// aapt resource value: 0x7f050003
-			public const int newsListView = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int newsListView = 2131099651;
 			
-			// aapt resource value: 0x7f050000
-			public const int newsTitle = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int newsTitle = 2131099648;
+			
+			// aapt resource value: 0x7f060004
+			public const int read_later_white = 2131099652;
 			
 			static Id()
 			{
@@ -102,6 +108,22 @@ namespace NotiX
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int NewsActionMenu = 2131034112;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

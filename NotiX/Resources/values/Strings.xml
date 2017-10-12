@@ -2,4 +2,9 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">NotiX</string>
+  
+  
+  <string name="NewsListActivity.Tabs.Allnews.Header">All News</string>
+  <string name="NewsListActivity.Tabs.SavedNews.Header">Saved News</string>
+  
 </resources>

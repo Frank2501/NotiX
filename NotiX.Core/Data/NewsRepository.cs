@@ -17,7 +17,7 @@ namespace NotiX.Core.Data
     {
         private List<News> _news;
 
-        public NewsRepository()
+        internal NewsRepository()
         {
             _news = new List<News>()
             {

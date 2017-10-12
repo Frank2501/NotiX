@@ -72,13 +72,16 @@ namespace NotiX
 			public const int newsImage = 2131099649;
 			
 			// aapt resource value: 0x7f060003
-			public const int newsListView = 2131099651;
+			public const int newsListFragmentContainer = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int newsListView = 2131099652;
 			
 			// aapt resource value: 0x7f060000
 			public const int newsTitle = 2131099648;
 			
-			// aapt resource value: 0x7f060004
-			public const int read_later_white = 2131099652;
+			// aapt resource value: 0x7f060005
+			public const int read_later_white = 2131099653;
 			
 			static Id()
 			{
@@ -100,7 +103,10 @@ namespace NotiX
 			public const int NewsList = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int NewsListRow = 2130903042;
+			public const int NewsListFragment = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int NewsListRow = 2130903043;
 			
 			static Layout()
 			{
@@ -136,6 +142,12 @@ namespace NotiX
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int NewsListActivity_Tabs_Allnews_Header = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int NewsListActivity_Tabs_SavedNews_Header = 2130968579;
 			
 			static String()
 			{

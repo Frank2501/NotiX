@@ -104,7 +104,16 @@ namespace NotiX
 
         private void HandleReadLater()
         {
-            Toast.MakeText(this, "Read later", ToastLength.Short).Show();
+            try
+            {
+                var newsLocalService = new NewsLocalService();
+                newsLocalService.Save(_news);
+                Toast.MakeText(this, "Noticia Guardada", ToastLength.Short).Show();
+            }
+            catch (Exception ex)
+            {
+                Toast.MakeText(this, "error: " + ex.Message, ToastLength.Long).Show();
+            }
         }
     }
 }
